@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/AQI2cigarettes/precache-manifest.d54eb5155517b4f264bad478dd92ffe3.js"
+  "/AQI2cigarettes/precache-manifest.cfd6cd1b4a64242a248a0cc220084cf6.js"
 );
 
 self.addEventListener('message', (event) => {
