@@ -16,3 +16,14 @@ body {
 #info {
   text-align: left;
 }
+
+#monetized {
+  text-align: right;
+  font-size: 12px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding-right: 20px;
+  width: 100%;
+  background: white;
+}
