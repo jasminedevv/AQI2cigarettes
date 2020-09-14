@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "af2e1afdd75830413c2673375a4c9255",
+    "revision": "1de21a14c72ee603e30cd4193e3e8231",
     "url": "/AQI2cigarettes/index.html"
   },
   {
