@@ -1,3 +1,6 @@
+// renamed to TXT for now to appease linter
+
+
 import { calcAQI, calcPM25 } from './utils'
 import * as fs from 'fs'
 import * as path from 'path';
