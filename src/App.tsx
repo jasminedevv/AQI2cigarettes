@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css'
 import 'semantic-ui-react'
-import { calcAQI, calcPM25 } from './utils'
+import { calcPM25 } from './utils'
 import { Container, Header, Input, Button } from 'semantic-ui-react'
 
 class App extends React.Component<
@@ -19,11 +19,6 @@ class App extends React.Component<
     }
   }
 
-  particles2AQI () {
-    const AQI = calcAQI(this.state.particles)
-    this.setState({ AQI })
-  }
-
   AQI2cigs () {
     // placeholder while I get react shit working
     var { AQI, hours } = this.state
@@ -39,7 +34,7 @@ class App extends React.Component<
   }
 
   render () {
-    const { AQI, hours, cigs, particles } = this.state
+    const { AQI, hours, cigs } = this.state
     const cigsLegible = cigs.toFixed(2)
 
     return (
@@ -76,26 +71,11 @@ class App extends React.Component<
           <p>It's like you've smoked</p>
           <Header as='h2'>{cigsLegible}</Header>
           <p>cigarettes</p>
-          {/* <hr></hr>
-          <Header>Calculate AQI</Header>
 
-          <br />
-          <Input
-            fluid
-            label='PM2.5 Particles'
-            value={particles}
-            onChange={e =>
-              this.setState({ particles: Number(e.currentTarget.value) })
-            }
-          />
-          <br />
-          <br />
-          <Button primary onClick={this.particles2AQI.bind(this)}>
-            Calculate
-          </Button>
-          <Header>{AQI}</Header> */}
-
-          <p className="red">DISCLAIMER: I haven't gotten this validated by an expert yet so these values may be off.</p>
+          <p className='red'>
+            DISCLAIMER: I haven't gotten this validated by an expert yet so take
+            these results with a grain of salt for now.
+          </p>
         </Container>
       </div>
     )
