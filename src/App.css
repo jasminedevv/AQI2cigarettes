@@ -1,10 +1,17 @@
+body {
+  padding: 0 5% !important;
+}
+
 .App {
   text-align: center;
-  padding-top: 6%;
   max-width: 500px;
   margin: auto;
 }
 
 .red {
   color: red;
+}
+
+#info {
+  text-align: left;
 }
