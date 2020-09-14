@@ -1,0 +1,63 @@
+import { calcAQI, calcPM25 } from './utils'
+import * as fs from 'fs'
+import * as path from 'path';
+
+const ACCEPTABLE_ERROR_MARGIN = 0.1
+
+/** Examples from: http://berkeleyearth.org/archive/air-pollution-and-cigarette-equivalence/*/
+// These were lifted straight out of the article as example
+const examples1 = [
+  { pollution: 52, cigs: 2.4 },
+  { pollution: 85, cigs: 4 },
+  { pollution: 120, cigs: 5.5 },
+  { pollution: 550, cigs: 25 },
+  { pollution: 999, cigs: 45 },
+  { pollution: 547, cigs: 25 },
+  { pollution: 1400, cigs: 60 },
+  { pollution: 22, cigs: 1 },
+  { pollution: 44, cigs: 2 },
+  { pollution: 9, cigs: 0.41 }
+]
+
+// A little wonky because we're converting PM to AQI then back to PM
+function test_calcPM25 () {
+  examples1.map(item => {
+    const AQI = calcAQI(item.pollution)
+    // console.log(`Got AQI ${AQI} for PM ${item.pollution}`)
+
+    // this is what you get if you don't convert to AQI and back
+    const cigsDirect = item.pollution / 22
+
+    const cigsViaAQI = calcPM25(AQI) / 22
+
+    console.log(
+      `\nFor pollution=${item.pollution} \ngot ${cigsViaAQI} \nExpected ${cigsDirect}, paper got ${item.cigs}\n`
+    )
+  })
+}
+
+function test_calcPM25_2 () {
+  console.log('starting')
+  for (let i = 0; i < 50; i++) {
+    const pollution = i * 10
+
+    const AQI = calcAQI(pollution)
+    const cigsViaAQI = calcPM25(AQI) / 22
+
+    const cigsDirect = pollution / 22
+
+    const file = path.join(__dirname, 'data.csv')
+    fs.appendFile(file, `\n${pollution},${cigsDirect},${cigsViaAQI},${AQI}`, function (err) {
+      if (err) throw err
+    })
+
+    console.log(`
+            Pollution: ${pollution}
+            Direct:    ${cigsDirect}
+            Via AQI:   ${cigsViaAQI}
+        `)
+  }
+}
+
+// test_calcPM25()
+test_calcPM25_2()
