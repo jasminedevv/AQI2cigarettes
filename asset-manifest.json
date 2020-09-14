@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/AQI2cigarettes/static/css/main.f41b23c5.chunk.css",
+    "main.css": "/AQI2cigarettes/static/css/main.fbe755c0.chunk.css",
     "main.js": "/AQI2cigarettes/static/js/main.df4b756a.chunk.js",
     "main.js.map": "/AQI2cigarettes/static/js/main.df4b756a.chunk.js.map",
     "runtime-main.js": "/AQI2cigarettes/static/js/runtime-main.aa3adcc7.js",
@@ -9,10 +9,10 @@
     "static/js/2.ed232b76.chunk.js": "/AQI2cigarettes/static/js/2.ed232b76.chunk.js",
     "static/js/2.ed232b76.chunk.js.map": "/AQI2cigarettes/static/js/2.ed232b76.chunk.js.map",
     "index.html": "/AQI2cigarettes/index.html",
-    "precache-manifest.07aea86739e28ceabb21555d99704fe3.js": "/AQI2cigarettes/precache-manifest.07aea86739e28ceabb21555d99704fe3.js",
+    "precache-manifest.ba73d3b768a2e5b5100afc5baf67b7f9.js": "/AQI2cigarettes/precache-manifest.ba73d3b768a2e5b5100afc5baf67b7f9.js",
     "service-worker.js": "/AQI2cigarettes/service-worker.js",
     "static/css/2.fcdba597.chunk.css.map": "/AQI2cigarettes/static/css/2.fcdba597.chunk.css.map",
-    "static/css/main.f41b23c5.chunk.css.map": "/AQI2cigarettes/static/css/main.f41b23c5.chunk.css.map",
+    "static/css/main.fbe755c0.chunk.css.map": "/AQI2cigarettes/static/css/main.fbe755c0.chunk.css.map",
     "static/js/2.ed232b76.chunk.js.LICENSE.txt": "/AQI2cigarettes/static/js/2.ed232b76.chunk.js.LICENSE.txt",
     "static/media/semantic.min.css": "/AQI2cigarettes/static/media/outline-icons.ef60a4f6.woff"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.aa3adcc7.js",
     "static/css/2.fcdba597.chunk.css",
     "static/js/2.ed232b76.chunk.js",
-    "static/css/main.f41b23c5.chunk.css",
+    "static/css/main.fbe755c0.chunk.css",
     "static/js/main.df4b756a.chunk.js"
   ]
 }
