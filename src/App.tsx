@@ -12,9 +12,9 @@ class App extends React.Component<
     super(props)
 
     this.state = {
-      AQI: 150,
+      AQI: 0,
       hours: 24,
-      cigs: 'stuff',
+      cigs: 0,
       particles: 0
     }
   }
@@ -40,9 +40,11 @@ class App extends React.Component<
 
   render () {
     const { AQI, hours, cigs, particles } = this.state
+    const cigsLegible = cigs.toFixed(2)
+
     return (
       <div className='App'>
-        <Header as='h1'>UNFINISHED AQI to Cigarettes Calculator</Header>
+        <Header as='h1'>AQI to Cigarettes Calculator</Header>
         <br />
         <br />
         <Container className='max-200'>
@@ -72,9 +74,9 @@ class App extends React.Component<
           <br />
           <br />
           <p>It's like you've smoked</p>
-          <Header as='h2'>{cigs}</Header>
+          <Header as='h2'>{cigsLegible}</Header>
           <p>cigarettes</p>
-          <hr></hr>
+          {/* <hr></hr>
           <Header>Calculate AQI</Header>
 
           <br />
@@ -91,7 +93,9 @@ class App extends React.Component<
           <Button primary onClick={this.particles2AQI.bind(this)}>
             Calculate
           </Button>
-          <Header>{AQI}</Header>
+          <Header>{AQI}</Header> */}
+
+          <p className="red">DISCLAIMER: this thing is unfinished and currently not quite accurate for some (???) values.</p>
         </Container>
       </div>
     )
