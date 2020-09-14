@@ -95,7 +95,7 @@ class App extends React.Component<
           </Button>
           <Header>{AQI}</Header> */}
 
-          <p className="red">DISCLAIMER: this thing is unfinished and currently not quite accurate for some (???) values.</p>
+          <p className="red">DISCLAIMER: I haven't gotten this validated by an expert yet so these values may be off.</p>
         </Container>
       </div>
     )
