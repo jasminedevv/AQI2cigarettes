@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/AQI2cigarettes/static/css/main.332cfb3f.chunk.css",
-    "main.js": "/AQI2cigarettes/static/js/main.4b98636c.chunk.js",
-    "main.js.map": "/AQI2cigarettes/static/js/main.4b98636c.chunk.js.map",
+    "main.css": "/AQI2cigarettes/static/css/main.ea8fab22.chunk.css",
+    "main.js": "/AQI2cigarettes/static/js/main.df4b756a.chunk.js",
+    "main.js.map": "/AQI2cigarettes/static/js/main.df4b756a.chunk.js.map",
     "runtime-main.js": "/AQI2cigarettes/static/js/runtime-main.aa3adcc7.js",
     "runtime-main.js.map": "/AQI2cigarettes/static/js/runtime-main.aa3adcc7.js.map",
     "static/css/2.fcdba597.chunk.css": "/AQI2cigarettes/static/css/2.fcdba597.chunk.css",
     "static/js/2.ed232b76.chunk.js": "/AQI2cigarettes/static/js/2.ed232b76.chunk.js",
     "static/js/2.ed232b76.chunk.js.map": "/AQI2cigarettes/static/js/2.ed232b76.chunk.js.map",
     "index.html": "/AQI2cigarettes/index.html",
-    "precache-manifest.eeac858625d0c91001eefbd0b22a1f05.js": "/AQI2cigarettes/precache-manifest.eeac858625d0c91001eefbd0b22a1f05.js",
+    "precache-manifest.a9c24a99ad81794f04df28d7c7f919f2.js": "/AQI2cigarettes/precache-manifest.a9c24a99ad81794f04df28d7c7f919f2.js",
     "service-worker.js": "/AQI2cigarettes/service-worker.js",
     "static/css/2.fcdba597.chunk.css.map": "/AQI2cigarettes/static/css/2.fcdba597.chunk.css.map",
-    "static/css/main.332cfb3f.chunk.css.map": "/AQI2cigarettes/static/css/main.332cfb3f.chunk.css.map",
+    "static/css/main.ea8fab22.chunk.css.map": "/AQI2cigarettes/static/css/main.ea8fab22.chunk.css.map",
     "static/js/2.ed232b76.chunk.js.LICENSE.txt": "/AQI2cigarettes/static/js/2.ed232b76.chunk.js.LICENSE.txt",
     "static/media/semantic.min.css": "/AQI2cigarettes/static/media/outline-icons.ef60a4f6.woff"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.aa3adcc7.js",
     "static/css/2.fcdba597.chunk.css",
     "static/js/2.ed232b76.chunk.js",
-    "static/css/main.332cfb3f.chunk.css",
-    "static/js/main.4b98636c.chunk.js"
+    "static/css/main.ea8fab22.chunk.css",
+    "static/js/main.df4b756a.chunk.js"
   ]
 }
