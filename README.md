@@ -8,4 +8,4 @@ I am not a scientist or academic. This is a little project I did during a weeken
 The PM 2.5 to AQI converter uses an equation I found in the code of [this calculator](https://www.airnow.gov/aqi/aqi-calculator/). The [breakpoints](https://www.epa.gov/sites/production/files/2014-05/documents/zell-aqi.pdf) are from the EPA. I assume that one cigarette [is equal to exposure to air pollution of 22 μg/m3 for 24 hours](http://berkeleyearth.org/archive/air-pollution-and-cigarette-equivalence/).
 
 ## Project Status
-'Beta version' is live [here](https://jasminedevv.github.io/AQI2cigarettes/). I'm looking to get this validated by an expert before sharing widely.
+'Beta version' is live [here](https://jasminedevv.github.io/AQI2cigarettes/).
