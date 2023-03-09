@@ -129,12 +129,23 @@ class App extends React.Component<
               to AQI - and then back - you end up rounding a bit.
             </p>
             <i>
-              Is my logic off? Did I science wrong? Please <a href='https://github.com/jasminedevv/AQI2cigarettes'>leave an issue on GitHub</a>.
+              Is my logic off? Did I science wrong? Please <a href='https://github.com/jasminedevv/AQI2cigarettes'>leave an issue on GitHub</a>. For more information about why I built this the way I did, <a href="https://medium.com/@jasminedevv/i-made-an-aqi-to-cigarettes-calculator-f407177c85c2">read this</a>.
+            </i>
+            <br></br>
+            <br></br>
+            <i>
+              If you write something about this project I would love to hear about it! My email address is my handle @protonmail.com.
+            </i>
+            <br></br>
+            <br></br>
+            <i>
+              Originally Published September 2020. Last updated March 2023.
             </i>
           </div>
           <br />
           <br />
         </Container>
+        <script type="text/javascript" src="http://www.websitegoodies.com/counter.php?id=74902&color="></script>
       </div>
     )
   }
